@@ -1,0 +1,24 @@
+{
+  "name": "trabalho-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeuBorelli/trabalho-final-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/LeuBorelli/trabalho-final-js/issues"
+  },
+  "homepage": "https://github.com/LeuBorelli/trabalho-final-js#readme",
+  "devDependencies": {
+    "mocha": "^11.5.0"
+  }
+}
