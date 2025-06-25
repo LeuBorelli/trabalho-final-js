@@ -1,0 +1,23 @@
+#CI N1, conforme solicitado no enunciado do trabalho
+
+name: "Execução Manual"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  unitarios:
+    runs-on: ubuntu-latest
+  
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+      
+      - name: Instalando dependências
+        run: npm install
+
+      - name: Executando Testes Unitários
+        run: npx mocha testes/trabalho-final.js
